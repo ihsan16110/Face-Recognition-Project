@@ -7,7 +7,7 @@ import numpy as np
 import cv2
 
 video_capture =cv2.VideoCapture(0)
-mahdi_image = face_recognition.load_image_file("Mahdi.jpg")
+mahdi_image = face_recognition.load_image_file("mahdi.jpg")
 mahdi_image_face_encoding = face_recognition.face_encodings(mahdi_image)[0]
 
 # Load a second sample picture and learn how to recognize it.
